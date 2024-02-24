@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-caslon text-3xl xl:text-6xl md:text-5xl;
+  }
+  h2 {
+    @apply font-caslon text-5xl dark:text-gray-300;
+  }
+  h4 {
+    @apply font-roboto  text-base font-[500] tracking-wide;
+  }
+  h5 {
+    @apply font-roboto  text-sm  text-gray-500 dark:text-gray-300  tracking-wide;
+  }
+  p {
+    @apply font-roboto text-base;
+  }
+}
+
+@layer components {
+  .card-base {
+    @apply flex flex-col h-full w-full  bg-white dark:bg-[#171A2E] rounded-lg  dark:border-none shadow-sm hover:shadow-lg  text-gray-900   dark:text-gray-300 overflow-hidden color-transition dark:hover:shadow-customShadow transition duration-500 ease-in-out;
+  }
+}
+
+@layer directives {
+  .color-transition {
+    @apply transition-colors duration-500 ease-in-out;
+  }
+
+  @keyframes grain {
+    0%,
+    100% {
+      background-position: 0 0;
+    }
+    10% {
+      background-position: -5% -10%;
+    }
+    20% {
+      background-position: -15% 5%;
+    }
+    30% {
+      background-position: 7% -25%;
+    }
+    40% {
+      background-position: -5% 25%;
+    }
+    50% {
+      background-position: -15% 10%;
+    }
+    60% {
+      background-position: 15% 0;
+    }
+    70% {
+      background-position: 0 15%;
+    }
+    80% {
+      background-position: 3% 35%;
+    }
+    90% {
+      background-position: -10% 10%;
+    }
+  }
+
+  .grain-effect {
+    animation: grain 0.8s steps(10) infinite;
+    background-image: url("./assets/grain-image.png");
+    background-repeat: repeat;
+  }
+}

@@ -1,0 +1,217 @@
+{
+
+  "courses": [
+    {
+      "id": 4,
+      "logo": "Skillshare.jpg",
+      "title": "Skillshare",
+      "description": "Explore your creativity with classes in illustration, photography, design, and more.",
+      "url": "https://www.skillshare.com"
+    },
+    {
+      "id": 1,
+      "logo": "Interaction-Design-Foundantion.jpg",
+      "title": "Interaction Design Foundation",
+      "description": "UX Design Courses & Global UX Community",
+      "url": "https://www.interaction-design.org"
+    },
+    {
+      "id": 5,
+      "logo": "Free-Ivy-League.jpg",
+      "title": "Free Ivy League",
+      "description": "Free Ivy League courses",
+      "url": "https://www.freecodecamp.org/news/ivy-league-free-online-courses-a0d7ae675869/?fbclid=IwAR2c3FyKESF-SkZmCT2jP6OkGdOUoismKTy9GBhhxaJKu9feufarL0oWFY8"
+    },
+    {
+      "id": 6,
+      "logo": "NNg.jpg",
+      "title": "Nielsen Norman Group",
+      "description": "The NN/g UX Certification Program",
+      "url": "https://www.nngroup.com/ux-certification/"
+    },
+    {
+      "id": 7,
+      "logo": "IDEO-U.jpg",
+      "title": "IDEO U",
+      "description": "Build relevant skills for the modern world",
+      "url": "https://www.ideou.com/"
+    },
+    {
+      "id": 8,
+      "logo": "webflow-university.jpg",
+      "title": "Webflow University",
+      "description": "The Freelancer’s Journey - Client proposal research Tutorial | Webflow University",
+      "url": "https://university.webflow.com/"
+    },
+    {
+      "id": 9,
+      "logo": "Hackdesign.jpg",
+      "title": "Hack Design",
+      "description": "Design lessons for everyone, curated by top designers",
+      "url": "https://hackdesign.org/"
+    },
+    {
+      "id": 10,
+      "logo": "FutureLearn.jpg",
+      "title": "FutureLearn",
+      "description": "Online Courses and Degrees from Top Universities",
+      "url": "https://www.futurelearn.com/"
+    },
+    {
+      "id": 11,
+      "logo": "designcode.jpg",
+      "title": "designcode.io",
+      "description": "Complete courses about the best tools and design systems.",
+      "url": "https://designcode.io/"
+    },
+    {
+      "id": 12,
+      "logo": "udacity.jpg",
+      "title": "Udacity",
+      "description": "Product Design Courses",
+      "url": "https://www.udacity.com/"
+    },
+    {
+      "id": 13,
+      "logo": "coursera.jpg",
+      "title": "Coursera",
+      "description": "Build Skills with Online Courses from Top Institutions",
+      "url": "https://www.coursera.org/programs/online-learning-from-your-dol-new-york-city-6jrvh"
+    },
+    {
+      "id": 14,
+      "logo": "coursera.jpg",
+      "title": "Digital Psychology",
+      "description": "A free library of psychological principles",
+      "url": "https://digitalpsychology.io/"
+    }
+  ],
+
+  "webinars": [
+    {
+      "id": 1,
+      "logo": "webimars-TechCircusTV.png",
+      "title": "Tech Circus TV",
+      "description": "Tech Circus is an independent company producing educational events for communities of digital design, product, UX, Web 3, eCommerce, dCommerce and more.",
+      "url": "https://techcircus.io/"
+    },
+    {
+      "id": 2,
+      "logo": "webimars-InVisionDesignTalks.png",
+      "title": "InVision DesignTalks",
+      "description": "Webinar training sessions from the experts using InVision.",
+      "url": "https://www.invisionapp.com/events/types/webinars"
+    },
+    {
+      "id": 3,
+      "logo": "webimars-Figma-Events.png",
+      "title": "Figma Events",
+      "description": "Join Figma’s designer advocates and customers like you as they share best practices and give an inside look into how they work.",
+      "url": "https://www.figma.com/events/"
+    },
+    {
+      "id": 4,
+      "logo": "webimars-Etch-sprints.png",
+      "title": "Etch sprints",
+      "description": "Etch is a digital customer experience consultancy. We help organisations to innovate their digital customer experiences and continuously optimise for sustainable growth. ",
+      "url": "https://www.etchuk.com/?_gl=1*d5vf2c*_up*MQ..*_ga*NDM4NzgzMDA4LjE3MDgxMTUxNjk.*_ga_B6N6TCN2N5*MTcwODExNTE2OS4xLjAuMTcwODExNTE2OS4wLjAuMA.."
+    }
+  ],
+
+  "books": [
+    {
+      "id": 1,
+      "logo": "books-ux-pin-books.png",
+      "title": "UXPin e-Books",
+      "description": "Thoughtful content on mobile & web prototyping, wireframing, mockups, usability testing, project management, design process & more.",
+      "url": "https://www.uxpin.com/studio/ebooks/"
+    },
+    {
+      "id": 1,
+      "logo": "books-the-back-of-the-napkin.png",
+      "title": "The Back of the Napkin",
+      "description": "Explaining how everybody is born with an innate talent for visual thinking, a guide to enhancing analytical skills by building up one's intrinsic abilities is a primer for business leaders on how to develop ideas and enable faster results using to-the-point visual methods. 30,000 first printing.",
+      "url": "https://www.amazon.com/Back-Napkin-Solving-Problems-Pictures/dp/1591841992"
+    },
+    {
+      "id": 1,
+      "logo": "books-solving-product-design.png",
+      "title": "Solving Product Design Exercises",
+      "description": "Learn how to solve and present exercises like these, that top startups use to interview designers for product design and UI/UX roles.",
+      "url": "https://a.co/d/iKe635d"
+    },
+    {
+      "id": 1,
+      "logo": "books-creative-confident.png",
+      "title": "Creative Confidence",
+      "description": "IDEO founder and Stanford d.school creator David Kelley and his brother Tom Kelley, IDEO partner and the author of the bestselling The Art of Innovation, have written a powerful and compelling book on unleashing the creativity that lies within each and every one of us.",
+      "url": "https://a.co/d/hWUjBaz"
+    }
+  ],
+
+
+  "films": [
+    {
+      "id": 1,
+      "logo": "films-abstract.png",
+      "title": "Abstract",
+      "description": "Step inside the minds of the most innovative designers in a variety of disciplines and learn how design impacts every aspect of life.",
+      "url": "https://techcircus.io/"
+    },
+    {
+      "id": 1,
+      "logo": "films-milton-glaser.png",
+      "title": "Milton Glaser: To Inform and Delight",
+      "description": "Profiles Milton Glaser (1929- ), America's foremost graphic designer: designer of the iconic \"I [heart] N.Y.\" logo, teacher, and humanitarian. Interviews with Glaser are arranged to take him through a rough chronology of his life: study at New York High School of Music and Art and at Cooper Union, a seminal stay in Italy, his marriage, and his various partnerships - founding Push Pin Studios and \"New York\" magazine, designing Grand Union supermarkets, and working with \"The Nation.\" Interspersed are examples of his work. Glaser is, throughout, charming in manner, memorable in his observations, and generous of spirit.",
+      "url": "https://www.invisionapp.com/events/types/webinars"
+    },
+    {
+      "id": 1,
+      "logo": "films-helvetica.png",
+      "title": "Helvetica",
+      "description": "Helvetica is a 2007 American independent feature-length documentary film about typography and graphic design, centered on the Helvetica typeface.",
+      "url": "https://www.figma.com/events/"
+    }
+  ],
+
+  "podcasts": [
+    {
+      "id": 1,
+      "logo": "podcast-high-resolution.png",
+      "title": "High Resolution Podcast",
+      "description": "High Resolution is a limited video series on product design and design thinking.Each week, for the next 6 months we'll sit down with a new guest for about an hour and we'll discuss how the best companies approach, communicate and deploy design.",
+      "url": "https://www.highresolution.design/1-katie-dill"
+    },
+    {
+      "id": 1,
+      "logo": "podcast-design-observer.png",
+      "title": "Design Observer",
+      "description": "The Observatory on iTunes or your favorite podcast app, or follow Design Observer on Soundcloud.",
+      "url": "https://designobserver.com/podcast-the-observatory.php"
+    },
+    {
+      "id": 1,
+      "logo": "podcast-spec.png",
+      "title": "Spec",
+      "description": "Level up by listening to podcasts from the best in the industry",
+      "url": "https://spec.fm/"
+    },
+    {
+      "id": 1,
+      "logo": "podcast-designer-designer.png",
+      "title": "Designer & Designer",
+      "description": "Designer & Designer is a podcast about design. Each episode dives into a design topic with candor and humor, exposing the rarely talked about challenges that designers face, and what it takes to create great design.",
+      "url": "https://designer.fm/"
+    },
+    {
+      "id": 1,
+      "logo": "podcast-the-art-of-product.png",
+      "title": "The Art of Product",
+      "description": "The Art of Product is a podcast chronicling the journeys of two entrepreneurs building software companies. Hosted by Ben Orenstein and Derrick Reimer.",
+      "url": "https://artofproductpodcast.com/z"
+    }
+  ]
+
+
+  
+  }
