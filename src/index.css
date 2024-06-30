@@ -22,7 +22,7 @@
 
 @layer components {
   .card-base {
-    @apply flex flex-col h-full w-full  bg-white dark:bg-[#171A2E] rounded-lg  dark:border-none shadow-sm hover:shadow-lg  text-gray-900   dark:text-gray-300 overflow-hidden color-transition dark:hover:shadow-customShadow transition duration-500 ease-in-out;
+    @apply flex flex-col h-full w-full  bg-white dark:bg-[#171A2E] rounded-lg  dark:border-none border-[1px] dark:border-grey-10  shadow-sm hover:shadow-lg  text-gray-900   dark:text-gray-300 overflow-hidden color-transition dark:hover:shadow-customShadow transition duration-500 ease-in-out;
   }
 }
 

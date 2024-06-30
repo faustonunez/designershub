@@ -4,7 +4,7 @@ export function Header() {
   return (
     <div className="  md:h-[343px] w-100 bg-primary rounded-lg flex flex-col sm:flex-row p-8 md:justify-between">
       <div className="  p-1 md:w-1/2 sm:w-full  flex items-center text-grey-10">
-        <h1>A curated list of learning resources for designers</h1>
+        <h1>A curated list of learning resources for creative.</h1>
       </div>
       <div className=" flex justify-center md:w-1/3">
         <img

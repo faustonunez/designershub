@@ -14,7 +14,7 @@ export function Nav() {
 
   useEffect(() => {
     // Prevent the animation from playing automatically on component mount
-    setPlayAnimation(false);
+    setPlayAnimation(true);
   }, []);
 
   function myFunction() {
@@ -33,11 +33,11 @@ export function Nav() {
 
   return (
     <>
-      <nav className="sticky top-0 z-10 px-8 py-8 bg-white/80 dark:bg-[#090819]/80 w-full h-auto flex items-center justify-between color-transition backdrop-blur-xl">
+      <nav className="sticky top-0 z-10 px-8 py-8 bg-white/100 dark:bg-[#090819]/80 w-full h-auto flex items-center justify-between color-transition backdrop-blur-xl">
         <button className="block md:hidden" onClick={myFunction}>
           <BurgerMenu className="dark:text-gray-300" />
         </button>
-        <Logo className="h-8 w-auto dark:text-gray-300 color-transition" />
+        <Logo className="h-8 w-auto dark:text-gray-300 color-transition " />
         <div className="flex space-x-8">
           <div className="hidden  md:flex">
             <a
