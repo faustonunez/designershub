@@ -8,7 +8,6 @@ export function App() {
     <div className=" bg-slate-100 dark:bg-[#090819]  flex flex-col color-transition grain-effect ">
       <Nav />
 
-      <dialog>Hello There</dialog>
       <div className="   flex flex-row ">
         <Sidecar />
         <Body />

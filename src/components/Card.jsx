@@ -10,7 +10,7 @@ export const Card = ({ logo, title, description, url }) => {
     >
       <div className=" card-base p-5 pt-10">
         <img
-          className="rounded-full w-[64px] h-[64px] mb-4 border-[0px]   border-gray-300 "
+          className="rounded-full w-[64px] h-[64px] mb-4 border-[1px]   border-gray-300 "
           src={logo}
           alt={title}
         />
