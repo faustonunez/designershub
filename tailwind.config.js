@@ -14,11 +14,17 @@ darkMode:'class',
         customShadow: '0px 8px 20px -7px #073268;', // Example custom shadow
       },
       colors: {
+        "mainBG" : "#F4F68A",
+        "secondaryBG": "#FFFFFF",
+        "sectionDark": "#0F0F10",
         "primary": "#051F40",
         "primary-dark":"#101324",
         "grey": {
-          "500": "#F6F6F6",
-          "10": "#ffffff" 
+          "100": "#0F0F10",
+          "80": "#333333",
+          "50": "#707079",
+          "30": "#CFDAE5",
+          "0": "#ffffff" 
         }
       },
       fontFamily: {

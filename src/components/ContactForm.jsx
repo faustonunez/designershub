@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import formImage from "../assets/form-image.png";
+import newslettersGraphic from "../assets/newsletter-graphic.png";
 
 export const ContactForm = () => {
   const [email, setEmail] = useState("");
@@ -39,17 +40,19 @@ export const ContactForm = () => {
   return (
     <div
       id="ContactForm"
-      className="lg:flex justify-center items-start bg-[#366CB2] p-[50px] rounded-md max-w-[1200px]"
+      className="lg:flex justify-center items-start bg-[#2F80ED] p-[50px] rounded-md "
     >
-      <div className="w-3/4 h-auto  w-full">
+      <div className=" h-auto  w-full">
         {isSubmittedSuccessfully ? (
-          <div className=" flex justify-center items-center h-full text-center text-lg text-white w-full  p-4 border  rounded-lg">
+          <div className=" flex justify-center items-center h-full text-center text-lg text-grey-100 w-full  p-4 border  rounded-lg">
             {statusMessage}
           </div>
         ) : (
-          <form className="space-y-4 text-gray-100 " onSubmit={sendEmail}>
+          <form className="space-y-4 text-grey-100  " onSubmit={sendEmail}>
             <div>
-              <h2>Subscribe to our Newsletter!</h2>
+              <h2 className="dark:text-grey-100">
+                Subscribe to our Newsletter!
+              </h2>
               <p>
                 Subscribe to our Newsletter for the latest and greatest learning
                 resources delivered directly to your inbox!{" "}
@@ -59,7 +62,7 @@ export const ContactForm = () => {
               <div className="w-full">
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-100"
+                  className="block text-sm font-medium text-grey-100"
                 >
                   Name
                 </label>
@@ -76,7 +79,7 @@ export const ContactForm = () => {
               <div className="w-full lg:ml-5">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-100"
+                  className="block text-sm font-medium text-grey-100"
                 >
                   Email
                 </label>
@@ -106,8 +109,12 @@ export const ContactForm = () => {
           </div>
         )}
       </div>
-      <div className="lg:flex justify-center  hidden lg:block">
-        <img src={formImage} alt="form image" className=" w-1/2 h-fit " />
+      <div className="lg:flex justify-center  hidden ">
+        <img
+          src={newslettersGraphic}
+          alt="form image"
+          className=" w-1/2 h-fit "
+        />
       </div>
     </div>
   );

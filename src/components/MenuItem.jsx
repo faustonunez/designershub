@@ -12,7 +12,7 @@ export function MenuItem(props) {
     <a
       href={href}
       onClick={myFunction} // Attach the myFunction to the onClick event
-      className="group flex items-center space-x-2 text-primary dark: dark:text-gray-300 hover:text-grey-10 p-2 hover:bg-primary hover:rounded-full mb-4 color-transition"
+      className="group flex items-center space-x-2 text-grey-100 dark:text-grey-0 hover:text-grey-0 p-2 hover:bg-grey-100 dark:hover:text-grey-100 dark:hover:bg-grey-0 rounded-full hover:rounded-full mb-4 transition-none"
     >
       <ImageComponent />
       <p>{text}</p>

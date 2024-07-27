@@ -4,13 +4,13 @@
 
 @layer base {
   h1 {
-    @apply font-caslon text-3xl xl:text-6xl md:text-5xl;
+    @apply font-caslon text-[32px] xl:text-[64px] md:text-5xl leading-[100%];
   }
   h2 {
-    @apply font-caslon text-5xl dark:text-gray-300;
+    @apply font-caslon text-5xl text-grey-100 dark:text-grey-0;
   }
   h4 {
-    @apply font-roboto  text-base font-[500] tracking-wide;
+    @apply font-roboto text-grey-100 dark:text-grey-0  text-base font-[500] tracking-wide;
   }
   h5 {
     @apply font-roboto  text-sm  text-gray-500 dark:text-gray-300  tracking-wide;
@@ -22,7 +22,7 @@
 
 @layer components {
   .card-base {
-    @apply flex flex-col h-full w-full  bg-white dark:bg-[#171A2E] rounded-lg  dark:border-none border-[1px] dark:border-grey-10  shadow-sm hover:shadow-lg  text-gray-900   dark:text-gray-300 overflow-hidden color-transition dark:hover:shadow-customShadow transition duration-500 ease-in-out;
+    @apply flex flex-col h-full w-full  bg-white dark:bg-grey-100 rounded-lg border-[2px] border-grey-100 dark:border-mainBG  shadow-sm hover:shadow-[0_4px_0px_0px_rgba(0,0,0,1)] text-gray-900   dark:text-gray-300 overflow-hidden color-transition dark:hover:shadow-[0_4px_0px_0px_rgba(244,246,138,1)] transition duration-500 ease-in-out;
   }
 }
 

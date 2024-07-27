@@ -12,7 +12,7 @@ export function Sidecar() {
   return (
     <div
       id="toggle"
-      className=" font-roboto drop-shadow-xl sm:drop-shadow-none  fixed sm:sticky top-[96px] left-0  w-[300px]  h-full sm:bg-transparent dark:sm:bg-transparent   bg-grey-500  dark:bg-[#090819] p-5 hidden md:block sm:mr-11 color-transition origin-left"
+      className=" font-roboto drop-shadow-xl sm:drop-shadow-none  fixed sm:sticky top-[96px] left-0  w-[300px]  h-full sm:bg-transparent dark:sm:bg-transparent   bg-mainBG  dark:bg-grey-100 p-5 hidden md:block sm:mr-11 color-transition origin-left"
     >
       <div>
         <MenuItem

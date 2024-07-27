@@ -10,7 +10,7 @@ export function Podcasts() {
   return (
     <div id="podcasts-sec" className=" scroll-my-[-250px]">
       <h2>Podcasts</h2>
-      <div className="grid xl:grid-cols-5 gap-4 lg:grid-cols-3 sm:grid-cols-2 mt-8">
+      <div className="grid xl:grid-cols-5 gap-4 lg:grid-cols-3 grid-cols-2 mt-8">
         {data.podcasts.map((item, index) => (
           <CardCover
             key={index} // Use the index as the key

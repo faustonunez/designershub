@@ -11,7 +11,7 @@ export function CoursesSec() {
   return (
     <div id="courses-sec" className=" scroll-my-[-250px]">
       <h2>Courses</h2>
-      <div className="grid xl:grid-cols-4 gap-4 lg:grid-cols-3 sm:grid-cols-2 mt-8">
+      <div className="grid xl:grid-cols-4 gap-4 lg:grid-cols-3 grid-cols-2 mt-8">
         {data.courses.map((course, index) => (
           <Card
             key={index} // Use the index as the key

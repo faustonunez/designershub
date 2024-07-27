@@ -3,7 +3,7 @@ import Logo from "../assets/designerhub-logo-light.svg?react";
 import Envelope from "../assets/envelope-letter.svg?react";
 import BurgerMenu from "../assets/icons/burger-menu.svg?react";
 import Lottie from "react-lottie-player";
-import LottieAnimation from "../toggle-lottie.json";
+import LottieAnimation from "../lottie-animation3.json";
 
 export function Nav() {
   const [isDarkMode, setIsDarkMode] = useState(() =>
@@ -33,15 +33,15 @@ export function Nav() {
 
   return (
     <>
-      <nav className="sticky top-0 z-10 px-8 py-8 bg-white/100 dark:bg-[#090819]/80 w-full h-auto flex items-center justify-between color-transition backdrop-blur-xl">
+      <nav className="sticky top-0 z-10 px-8 py-8  bg-secondaryBG dark:bg-grey-100/80 w-full h-auto flex items-center justify-between color-transition backdrop-blur-xl">
         <button className="block md:hidden" onClick={myFunction}>
           <BurgerMenu className="dark:text-gray-300" />
         </button>
-        <Logo className="h-8 w-auto dark:text-gray-300 color-transition " />
+        <Logo className="h-8 w-auto dark:text-grey-0 color-transition " />
         <div className="flex space-x-8">
           <div className="hidden  md:flex">
             <a
-              className="flex items-center text-primary dark:text-gray-300 color-transition"
+              className="flex items-center text-grey-100 dark:text-grey-0 color-transition"
               href="#ContactForm"
             >
               <p className="font-roboto"> Newsletter</p>
