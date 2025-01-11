@@ -40,7 +40,7 @@ export const ContactForm = () => {
   return (
     <div
       id="ContactForm"
-      className="lg:flex justify-center items-start bg-[#2F80ED] p-[50px] rounded-md "
+      className="lg:flex justify-center items-start bg-[#2F80ED] lg:p-[50px] p-[32px] rounded-md "
     >
       <div className=" h-auto  w-full">
         {isSubmittedSuccessfully ? (
@@ -96,7 +96,7 @@ export const ContactForm = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="inline-flex items-center px-4 py-3 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 h-[50px] ml-3 "
+                className="inline-flex items-center px-4 py-3 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 h-[50px] lg:ml-3 ml-0 lg:mt-0 mt-4 "
               >
                 {isSubmitting ? "Sending..." : "Subscribe"}
               </button>
@@ -109,7 +109,7 @@ export const ContactForm = () => {
           </div>
         )}
       </div>
-      <div className="lg:flex justify-center  hidden ">
+      <div className="lg:flex flex justify-center  item-center ">
         <img
           src={newslettersGraphic}
           alt="form image"
